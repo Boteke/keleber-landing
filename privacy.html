@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keleber — Политика конфиденциальности</title>
+<!-- ===== ЗАГЛУШКИ — ЗАМЕНИТЬ ПЕРЕД ПУБЛИКАЦИЕЙ: [НАЗВАНИЕ_ЮРЛИЦА], [EMAIL], [ТЕЛЕФОН], [АДРЕС], [ДАТА] — ищи по слову ЗАГЛУШКА ===== -->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Manrope:wght@400;500;700&display=swap');
+  :root{--ink:#0e1116;--paper:#fbf7f0;--accent:#ff5a3c;--accent2:#1f6feb;--lime:#d8ff3e;--muted:#6b6f76;--card:#fff;--radius:20px}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:'Manrope',sans-serif;background:var(--paper);color:var(--ink);line-height:1.62;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:820px;margin:0 auto;padding:0 24px}
+  nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);background:rgba(251,247,240,.78);border-bottom:1px solid rgba(14,17,22,.08)}
+  .nav-in{max-width:1160px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:68px}
+  .logo{font-family:'Unbounded';font-weight:800;font-size:24px;letter-spacing:-.5px;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .logo .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);display:inline-block}
+  .nav-right{display:flex;align-items:center;gap:18px}
+  .lang{display:flex;border:1.5px solid var(--ink);border-radius:999px;overflow:hidden}
+  .lang button{font-family:'Manrope';font-weight:700;font-size:13px;padding:6px 12px;background:none;border:none;cursor:pointer;color:var(--ink)}
+  .lang button.on{background:var(--ink);color:var(--paper)}
+  .cta-sm{background:var(--accent);color:#fff;border:none;padding:11px 20px;border-radius:999px;font-family:'Manrope';font-weight:700;font-size:14px;cursor:pointer;text-decoration:none;transition:transform .15s}
+  .cta-sm:hover{transform:translateY(-2px)}
+  .doc-head{padding:58px 0 26px}
+  .eyebrow{font-weight:700;color:var(--accent);font-size:14px;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px}
+  h1{font-family:'Unbounded';font-weight:800;font-size:clamp(32px,5vw,50px);letter-spacing:-1.5px;line-height:1.05;margin-bottom:14px}
+  .updated{color:var(--muted);font-size:15px}
+  .legal{padding:8px 0 50px}
+  .legal h2{font-family:'Unbounded';font-weight:600;font-size:clamp(20px,2.6vw,26px);letter-spacing:-.5px;margin:38px 0 12px}
+  .legal h3{font-family:'Unbounded';font-weight:600;font-size:17px;margin:22px 0 8px}
+  .legal p{margin-bottom:14px;color:#2a2f37}
+  .legal ul{margin:0 0 14px 22px}
+  .legal li{margin-bottom:8px;color:#2a2f37}
+  .legal a{color:var(--accent2);font-weight:600}
+  .stub{background:#fff4f2;border:1px dashed var(--accent);border-radius:6px;padding:1px 6px;color:var(--accent);font-weight:700;font-size:.92em}
+  footer{padding:48px 0 40px;border-top:1px solid rgba(14,17,22,.1);margin-top:24px}
+  .foot-grid{max-width:1160px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:30px}
+  .foot-grid h4{font-family:'Unbounded';font-size:18px;margin-bottom:10px}
+  .foot-col p,.foot-col a{color:var(--muted);font-size:14px;display:block;text-decoration:none;margin-bottom:6px}
+  .foot-col a:hover{color:var(--accent)}
+  .foot-legal{max-width:1160px;margin:0 auto;padding:24px 24px 0;font-size:13px;color:var(--muted)}
+  [data-lang-kz]{display:none}
+  body.kz [data-lang-ru]{display:none}
+  body.kz [data-lang-kz]{display:inline}
+  body.kz .block[data-lang-kz]{display:block}
+  @media(max-width:780px){.nav-right .cta-sm{display:none}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-in">
+    <a href="index.html" class="logo">Keleber<span class="dot"></span></a>
+    <div class="nav-right">
+      <div class="lang">
+        <button id="ru" class="on" onclick="setLang('ru')">RU</button>
+        <button id="kz" onclick="setLang('kz')">KZ</button>
+      </div>
+      <a href="index.html#start" class="cta-sm">
+        <span data-lang-ru>Подключиться</span><span data-lang-kz>Қосылу</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<header class="doc-head">
+  <div class="wrap">
+    <div class="eyebrow"><span data-lang-ru>Документы</span><span data-lang-kz>Құжаттар</span></div>
+    <h1><span data-lang-ru>Политика конфиденциальности</span><span data-lang-kz>Құпиялылық саясаты</span></h1>
+    <p class="updated">
+      <span data-lang-ru>Дата вступления в силу: <span class="stub">ЗАГЛУШКА</span> [ДАТА]</span>
+      <span data-lang-kz>Күшіне ену күні: <span class="stub">ЗАГЛУШКА</span> [ДАТА]</span>
+    </p>
+  </div>
+</header>
+
+<main class="legal">
+  <div class="wrap">
+
+    <h2><span data-lang-ru>1. Общие положения</span><span data-lang-kz>1. Жалпы ережелер</span></h2>
+    <p>
+      <span data-lang-ru>Настоящая Политика конфиденциальности описывает, как [НАЗВАНИЕ_ЮРЛИЦА] (далее — «мы», «Keleber») собирает, использует и защищает персональные данные при использовании сервиса записи Keleber. Используя сервис, вы соглашаетесь с условиями этой Политики.</span>
+      <span data-lang-kz>Осы Құпиялылық саясаты [НАЗВАНИЕ_ЮРЛИЦА] (бұдан әрі — «біз», «Keleber») Keleber жазылу сервисін пайдалану кезінде дербес деректерді қалай жинайтынын, пайдаланатынын және қорғайтынын сипаттайды. Сервисті пайдалана отырып, сіз осы Саясаттың шарттарымен келісесіз.</span>
+    </p>
+
+    <h2><span data-lang-ru>2. Какие данные мы собираем</span><span data-lang-kz>2. Қандай деректерді жинаймыз</span></h2>
+    <h3><span data-lang-ru>Данные мастера</span><span data-lang-kz>Шебердің деректері</span></h3>
+    <p>
+      <span data-lang-ru>Имя, номер телефона, адрес электронной почты, сведения об услугах, ценах и графике работы, а также токен push-уведомлений для оповещения о новых записях.</span>
+      <span data-lang-kz>Аты-жөні, телефон нөмірі, электрондық пошта мекенжайы, қызметтер, бағалар мен жұмыс кестесі туралы мәліметтер, сондай-ақ жаңа жазылулар туралы хабарлауға арналған push-хабарландыру токені.</span>
+    </p>
+    <h3><span data-lang-ru>Данные клиента</span><span data-lang-kz>Клиенттің деректері</span></h3>
+    <p>
+      <span data-lang-ru>Имя и номер телефона, передаваемые при обращении через WhatsApp, содержание переписки по записи, сведения о записи (услуга, дата, время), а также согласие на уведомления браузера и соответствующий токен, если вы его предоставили.</span>
+      <span data-lang-kz>WhatsApp арқылы жүгінген кезде берілетін аты және телефон нөмірі, жазылу бойынша хат алмасу мазмұны, жазылу туралы мәліметтер (қызмет, күні, уақыты), сондай-ақ браузер хабарландыруларына келісім және оны бергеніңізде тиісті токен.</span>
+    </p>
+    <h3><span data-lang-ru>Технические данные</span><span data-lang-kz>Техникалық деректер</span></h3>
+    <p>
+      <span data-lang-ru>Сведения об устройстве и браузере, файлы cookie и журналы доступа, необходимые для работы и безопасности сервиса.</span>
+      <span data-lang-kz>Құрылғы мен браузер туралы мәліметтер, cookie файлдары және сервистің жұмысы мен қауіпсіздігі үшін қажетті кіру журналдары.</span>
+    </p>
+
+    <h2><span data-lang-ru>3. Как мы используем данные</span><span data-lang-kz>3. Деректерді қалай пайдаланамыз</span></h2>
+    <ul>
+      <li><span data-lang-ru>организовывать запись к мастеру и подтверждать визиты;</span><span data-lang-kz>шеберге жазылуды ұйымдастыру және келулерді растау;</span></li>
+      <li><span data-lang-ru>отправлять уведомления и напоминания, если вы их включили;</span><span data-lang-kz>хабарландырулар мен еске салуларды, егер оларды қоссаңыз, жіберу;</span></li>
+      <li><span data-lang-ru>обеспечивать связь между мастером и клиентом;</span><span data-lang-kz>шебер мен клиент арасындағы байланысты қамтамасыз ету;</span></li>
+      <li><span data-lang-ru>поддерживать работу, безопасность и улучшение сервиса.</span><span data-lang-kz>сервистің жұмысын, қауіпсіздігін және жақсартылуын қолдау.</span></li>
+    </ul>
+
+    <h2><span data-lang-ru>4. Передача данных третьим лицам</span><span data-lang-kz>4. Деректерді үшінші тұлғаларға беру</span></h2>
+    <p>
+      <span data-lang-ru>Для передачи сообщений и подтверждений мы используем WhatsApp Business Platform, предоставляемую компанией Meta Platforms, Inc. Ваши сообщения обрабатываются Meta в соответствии с её правилами. Мы также используем поставщиков хостинга и инфраструктуры. Мы не продаём ваши персональные данные.</span>
+      <span data-lang-kz>Хабарламалар мен растауларды жеткізу үшін біз Meta Platforms, Inc. ұсынатын WhatsApp Business Platform қызметін пайдаланамыз. Сіздің хабарламаларыңызды Meta өз ережелеріне сәйкес өңдейді. Сондай-ақ хостинг пен инфрақұрылым жеткізушілерін пайдаланамыз. Біз сіздің дербес деректеріңізді сатпаймыз.</span>
+    </p>
+
+    <h2><span data-lang-ru>5. Трансграничная передача</span><span data-lang-kz>5. Трансшекаралық беру</span></h2>
+    <p>
+      <span data-lang-ru>Поскольку сообщения проходят через сервисы Meta, ваши данные могут передаваться и обрабатываться за пределами Республики Казахстан. Пользуясь сервисом, вы даёте согласие на такую трансграничную передачу.</span>
+      <span data-lang-kz>Хабарламалар Meta қызметтері арқылы өтетіндіктен, сіздің деректеріңіз Қазақстан Республикасынан тыс жерлерде берілуі және өңделуі мүмкін. Сервисті пайдалана отырып, сіз осындай трансшекаралық беруге келісім бересіз.</span>
+    </p>
+
+    <h2><span data-lang-ru>6. Хранение и защита</span><span data-lang-kz>6. Сақтау және қорғау</span></h2>
+    <p>
+      <span data-lang-ru>Мы храним персональные данные столько, сколько необходимо для оказания услуг, и в течение сроков, установленных законодательством. Мы принимаем разумные организационные и технические меры для защиты данных от несанкционированного доступа.</span>
+      <span data-lang-kz>Біз дербес деректерді қызмет көрсету үшін қажет мерзімде және заңнамада белгіленген мерзімдер ішінде сақтаймыз. Деректерді рұқсатсыз қол жеткізуден қорғау үшін орынды ұйымдастырушылық және техникалық шараларды қолданамыз.</span>
+    </p>
+
+    <h2><span data-lang-ru>7. Cookie и уведомления</span><span data-lang-kz>7. Cookie және хабарландырулар</span></h2>
+    <p>
+      <span data-lang-ru>Сервис может использовать файлы cookie для корректной работы. После записи мы можем предложить включить уведомления браузера (web-push) для напоминаний о визите. Вы можете отключить уведомления в настройках браузера в любой момент.</span>
+      <span data-lang-kz>Сервис дұрыс жұмыс істеуі үшін cookie файлдарын пайдалануы мүмкін. Жазылғаннан кейін біз келу туралы еске салу үшін браузер хабарландыруларын (web-push) қосуды ұсынуымыз мүмкін. Хабарландыруларды браузер баптауларында кез келген уақытта өшіре аласыз.</span>
+    </p>
+
+    <h2><span data-lang-ru>8. Ваши права</span><span data-lang-kz>8. Сіздің құқықтарыңыз</span></h2>
+    <p>
+      <span data-lang-ru>Вы вправе запросить доступ к своим данным, их исправление или удаление, а также отозвать ранее данное согласие на обработку. Для этого свяжитесь с нами по контактам ниже.</span>
+      <span data-lang-kz>Сіз өз деректеріңізге қол жеткізуді, оларды түзетуді немесе жоюды сұрауға, сондай-ақ бұрын берілген өңдеуге келісімді қайтарып алуға құқылысыз. Ол үшін төмендегі байланыстар арқылы бізбен хабарласыңыз.</span>
+    </p>
+
+    <h2><span data-lang-ru>9. Изменения политики</span><span data-lang-kz>9. Саясаттағы өзгерістер</span></h2>
+    <p>
+      <span data-lang-ru>Мы можем обновлять эту Политику. Актуальная версия всегда доступна на этой странице с указанием даты вступления в силу.</span>
+      <span data-lang-kz>Біз осы Саясатты жаңартуымыз мүмкін. Өзекті нұсқасы күшіне ену күні көрсетіле отырып, әрқашан осы бетте қолжетімді.</span>
+    </p>
+
+    <h2><span data-lang-ru>10. Контакты</span><span data-lang-kz>10. Байланыс</span></h2>
+    <p>
+      <span data-lang-ru>По вопросам обработки персональных данных: [НАЗВАНИЕ_ЮРЛИЦА], email: <a href="mailto:[EMAIL]">[EMAIL]</a>, тел.: [ТЕЛЕФОН], адрес: [АДРЕС].</span>
+      <span data-lang-kz>Дербес деректерді өңдеу мәселелері бойынша: [НАЗВАНИЕ_ЮРЛИЦА], email: <a href="mailto:[EMAIL]">[EMAIL]</a>, тел.: [ТЕЛЕФОН], мекенжай: [АДРЕС].</span>
+    </p>
+
+  </div>
+</main>
+
+<footer>
+  <div class="foot-grid">
+    <div class="foot-col">
+      <h4>Keleber</h4>
+      <p><span data-lang-ru>Сервис записи клиентов через WhatsApp для бьюти-мастеров. Казахстан.</span><span data-lang-kz>Бьюти-шеберлерге арналған WhatsApp арқылы клиенттерді жазу сервисі. Қазақстан.</span></p>
+    </div>
+    <div class="foot-col">
+      <h4><span data-lang-ru>Документы</span><span data-lang-kz>Құжаттар</span></h4>
+      <a href="index.html"><span data-lang-ru>Главная</span><span data-lang-kz>Басты бет</span></a>
+      <a href="privacy.html"><span data-lang-ru>Политика конфиденциальности</span><span data-lang-kz>Құпиялылық саясаты</span></a>
+      <a href="terms.html"><span data-lang-ru>Условия использования</span><span data-lang-kz>Пайдалану шарттары</span></a>
+    </div>
+  </div>
+  <p class="foot-legal">
+    <span data-lang-ru>© <span class="stub">ЗАГЛУШКА</span> 2026 [НАЗВАНИЕ_ЮРЛИЦА]. Все права защищены.</span>
+    <span data-lang-kz>© <span class="stub">ЗАГЛУШКА</span> 2026 [НАЗВАНИЕ_ЮРЛИЦА]. Барлық құқықтар қорғалған.</span>
+  </p>
+</footer>
+
+<script>
+  function setLang(l){
+    document.body.classList.toggle('kz', l==='kz');
+    document.documentElement.lang = l==='kz' ? 'kk' : 'ru';
+    document.getElementById('ru').classList.toggle('on', l==='ru');
+    document.getElementById('kz').classList.toggle('on', l==='kz');
+  }
+</script>
+</body>
+</html>
