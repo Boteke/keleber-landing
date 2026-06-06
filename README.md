@@ -21,3 +21,7 @@ RU / KZ — переключатель в шапке каждой страниц
 ## Деплой
 
 Статические HTML-файлы. Ссылки между страницами относительные (`index.html`, `privacy.html`, `terms.html`) — работают на любом хостинге, включая GitHub Pages.
+
+**Сайт:** https://boteke.github.io/keleber-landing/
+
+Кастомный домен `keleber.kz` подключать только после настройки DNS. До этого держите поле Custom domain в GitHub Pages пустым и не добавляйте `CNAME` в репозиторий.
