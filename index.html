@@ -386,7 +386,13 @@
     document.documentElement.lang = l==='kz' ? 'kk' : 'ru';
     document.getElementById('ru').classList.toggle('on', l==='ru');
     document.getElementById('kz').classList.toggle('on', l==='kz');
+    try{localStorage.setItem('keleber-lang',l)}catch(e){}
   }
+  (function(){
+    var saved;
+    try{saved=localStorage.getItem('keleber-lang')}catch(e){}
+    if(saved==='kz'||saved==='ru')setLang(saved);
+  })();
   // re-trigger reveal on load
   window.addEventListener('load',()=>{document.querySelectorAll('.reveal').forEach(e=>e.style.animationPlayState='running')});
 </script>
