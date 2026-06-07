@@ -35,7 +35,7 @@
   .stub{background:#fff4f2;border:1px dashed var(--accent);border-radius:6px;padding:1px 6px;color:var(--accent);font-weight:700;font-size:.92em}
   footer{padding:60px 0 40px;border-top:1px solid rgba(14,17,22,.1);margin-top:40px}
   .foot-wrap{max-width:1160px;margin:0 auto;padding:0 24px}
-  .foot-grid{display:flex;justify-content:space-between;flex-wrap:wrap;gap:30px}
+  .foot-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
   .foot-grid h4{font-family:'Unbounded';font-size:18px;margin-bottom:10px}
   .foot-col p,.foot-col a{color:var(--muted);font-size:14px;display:block;text-decoration:none;margin-bottom:6px}
   .foot-col a:hover{color:var(--accent)}
@@ -57,7 +57,7 @@
   body.kz .legal h2,
   body.kz .legal h3,
   body.kz .foot-grid h4{font-family:'Commissioner',sans-serif}
-  @media(max-width:780px){.nav-right .cta-sm{display:none}}
+  @media(max-width:780px){.foot-grid{grid-template-columns:1fr}.nav-right .cta-sm{display:none}}
 </style>
 </head>
 <body>
@@ -160,8 +160,8 @@
 
     <h2><span data-lang-ru>10. Контакты</span><span data-lang-kz>10. Байланыс</span></h2>
     <p>
-      <span data-lang-ru>По вопросам обработки персональных данных: ИП Realbrandz, ИНН 790915300275, email: <a href="mailto:dossenomarov@keleber.kz">dossenomarov@keleber.kz</a>, тел.: +77477657077, адрес: Казахстан; Алматы, ул. Байзакова 155, 49.</span>
-      <span data-lang-kz>Дербес деректерді өңдеу мәселелері бойынша: ИП Realbrandz, ЖСН 790915300275, email: <a href="mailto:dossenomarov@keleber.kz">dossenomarov@keleber.kz</a>, тел.: +77477657077, мекенжай: Казахстан; Алматы, ул. Байзакова 155, 49.</span>
+      <span data-lang-ru>По вопросам обработки персональных данных: ИП Realbrandz, ИНН 790915300275, email: <a href="mailto:dossenomarov@keleber.kz">dossenomarov@keleber.kz</a>, тел.: +77477657077, адрес: Казахстан, Алматы, ул. Байзакова 155, 49.</span>
+      <span data-lang-kz>Дербес деректерді өңдеу мәселелері бойынша: ИП Realbrandz, ЖСН 790915300275, email: <a href="mailto:dossenomarov@keleber.kz">dossenomarov@keleber.kz</a>, тел.: +77477657077, мекенжай: Казахстан, Алматы, ул. Байзакова 155, 49.</span>
     </p>
 
   </div>
@@ -180,7 +180,7 @@
         <p><span data-lang-ru>Компания:</span><span data-lang-kz>Компания:</span> ИП Realbrandz, ИНН 790915300275</p>
         <a href="mailto:dossenomarov@keleber.kz">Email: dossenomarov@keleber.kz</a>
         <a href="tel:+77477657077">Тел: +77477657077</a>
-        <p>Казахстан; Алматы, ул. Байзакова 155, 49</p>
+        <p>Казахстан, Алматы, ул. Байзакова 155, 49</p>
       </div>
       <div class="foot-col">
         <h4><span data-lang-ru>Документы</span><span data-lang-kz>Құжаттар</span></h4>
