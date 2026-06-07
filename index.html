@@ -5,9 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Keleber — запись клиентов через WhatsApp</title>
 <style>
-  /* ===== ЗАГЛУШКИ — ЗАМЕНИТЬ ПЕРЕД ПОДАЧЕЙ В META =====
-     [НАЗВАНИЕ_ЮРЛИЦА], [EMAIL], [ТЕЛЕФОН], [АДРЕС], год — ищи по слову ЗАГЛУШКА
-  ==================================================== */
 
   @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Manrope:wght@400;500;700&family=Golos+Text:wght@400;500;700&family=Commissioner:wght@600;700;800&display=swap');
 
@@ -118,11 +115,12 @@
 
   /* ---------- footer ---------- */
   footer{padding:60px 0 40px;border-top:1px solid rgba(14,17,22,.1);margin-top:40px}
+  .foot-wrap{max-width:1160px;margin:0 auto;padding:0 24px}
   .foot-grid{display:flex;justify-content:space-between;flex-wrap:wrap;gap:30px}
   .foot-grid h4{font-family:'Unbounded';font-size:18px;margin-bottom:10px}
   .foot-col p,.foot-col a{color:var(--muted);font-size:14px;display:block;text-decoration:none;margin-bottom:6px}
   .foot-col a:hover{color:var(--accent)}
-  .legal{margin-top:34px;font-size:13px;color:var(--muted)}
+  .foot-legal{margin-top:34px;font-size:13px;color:var(--muted)}
   .stub{background:#fff4f2;border:1px dashed var(--accent);border-radius:6px;padding:1px 6px;color:var(--accent);font-weight:700;font-size:.92em}
 
   @media(max-width:780px){
@@ -344,7 +342,7 @@
           <span data-lang-ru>Оставьте контакт — мы свяжемся, настроим всё за вас и запустим запись.</span>
           <span data-lang-kz>Байланыс қалдырыңыз — біз хабарласып, бәрін сіз үшін баптап, жазылуды іске қосамыз.</span>
         </p>
-        <a href="mailto:[EMAIL]" class="btn-primary">
+        <a href="mailto:dossenomarov@keleber.kz" class="btn-primary">
           <span data-lang-ru>Написать нам</span><span data-lang-kz>Бізге жазу</span>
         </a>
       </div>
@@ -354,7 +352,7 @@
 
 <!-- FOOTER (с обязательными для Meta блоками) -->
 <footer>
-  <div class="wrap">
+  <div class="foot-wrap">
     <div class="foot-grid">
       <div class="foot-col">
         <h4>Keleber</h4>
@@ -363,20 +361,21 @@
       </div>
       <div class="foot-col">
         <h4><span data-lang-ru>Контакты</span><span data-lang-kz>Байланыс</span></h4>
-        <p><span class="stub">ЗАГЛУШКА</span> <span data-lang-ru>Компания:</span><span data-lang-kz>Компания:</span> [НАЗВАНИЕ_ЮРЛИЦА]</p>
-        <a href="mailto:[EMAIL]">Email: [EMAIL]</a>
-        <a href="tel:[ТЕЛЕФОН]">Тел: [ТЕЛЕФОН]</a>
-        <p>[АДРЕС]</p>
+        <p><span data-lang-ru>Компания:</span><span data-lang-kz>Компания:</span> ИП Realbrandz, ИНН 790915300275</p>
+        <a href="mailto:dossenomarov@keleber.kz">Email: dossenomarov@keleber.kz</a>
+        <a href="tel:+77477657077">Тел: +77477657077</a>
+        <p>Казахстан; Алматы, ул. Байзакова 155, 49</p>
       </div>
       <div class="foot-col">
         <h4><span data-lang-ru>Документы</span><span data-lang-kz>Құжаттар</span></h4>
+        <a href="index.html"><span data-lang-ru>Главная</span><span data-lang-kz>Басты бет</span></a>
         <a href="privacy.html"><span data-lang-ru>Политика конфиденциальности</span><span data-lang-kz>Құпиялылық саясаты</span></a>
         <a href="terms.html"><span data-lang-ru>Условия использования</span><span data-lang-kz>Пайдалану шарттары</span></a>
       </div>
     </div>
-    <p class="legal">
-      <span data-lang-ru>© <span class="stub">ЗАГЛУШКА</span> 2026 [НАЗВАНИЕ_ЮРЛИЦА]. Все права защищены.</span>
-      <span data-lang-kz>© <span class="stub">ЗАГЛУШКА</span> 2026 [НАЗВАНИЕ_ЮРЛИЦА]. Барлық құқықтар қорғалған.</span>
+    <p class="foot-legal">
+      <span data-lang-ru>© 2026 ИП Realbrandz. Все права защищены.</span>
+      <span data-lang-kz>© 2026 ИП Realbrandz. Барлық құқықтар қорғалған.</span>
     </p>
   </div>
 </footer>
